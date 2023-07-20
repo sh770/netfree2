@@ -5,7 +5,9 @@ body {
     color: #333;
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* מציב את האלמנטים בעמודה אחת */
+    justify-content: center;
+    align-items: center;
   }
   
   .btn-custom {
