@@ -27,6 +27,6 @@ function verifyReferrer(){
 }
 
 // מבצע את הפונקציה בעת טעינת הדף
-window.onload = function () {
-  verifyReferrer();
-};
+// window.onload = function () {
+//   verifyReferrer();
+// };
