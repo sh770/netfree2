@@ -1,6 +1,5 @@
-function downloadFiles(){
-    window.location.href="https://remove-wifree.gq/images.rar"
-    localStorage.clear()
-    verifyReferrer()
-    //window.location.href = "index.html"; // מעבר לדף הבית 0
+function downloadFiles() {
+  window.location.href = "https://remove-wifree.gq/images.rar";
+  localStorage.clear();
+  window.location.href = "downloads.html"; // מעבר לדף הבית 
 }
