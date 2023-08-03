@@ -1,10 +1,10 @@
 // בדיקת המקור של הטעינה ויצירת ערך בלוקאל סטורג
-function checkReferrer() {
-  if (document.referrer === "https://remove-wifree.gq/paypal") {
+function verifyReferrer(){
+  if (document.referrer === "https://remove-wifree.gq/payment") {
     //   alert('הגעת ממקור תקין.');
 
     // כתובת המקור המאושרת
-    let approvedReferrer = "https://remove-wifree.gq/paypal";
+    let approvedReferrer = "https://remove-wifree.gq/payment";
 
     // בדיקה האם המקור הוא המאושר
     if (document.referrer === approvedReferrer) {
@@ -23,5 +23,5 @@ function checkReferrer() {
 
 // מבצע את הפונקציה בעת טעינת הדף
 window.onload = function () {
-  checkReferrer();
+  verifyReferrer();
 };
