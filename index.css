@@ -28,8 +28,7 @@ body {
   background-color: #0056b3;
 }
 
-header,
-main {
+header,main {
   background-color: #fff;
   padding: 20px;
   margin-bottom: 5px;
@@ -57,17 +56,12 @@ p {
 }
 
 
-
-
-
-
-
-
 .content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
   /* שורות ממוזערות בין התכנים */
   padding-bottom: 10px;
   /* הגדרה של גובה הפוטר */
