@@ -22,7 +22,7 @@ function verifyReferrer() {
   } else {
     console.log("error");
     console.log(eee);
-    window.location.href = "https://remove-wifree.gq"; // מעבר לדף הבית
+    // window.location.href = "https://remove-wifree.gq"; // מעבר לדף הבית
   }
 }
 
