@@ -9,6 +9,7 @@ body {
   /* מציב את האלמנטים בעמודה אחת */
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .btn-custom {
@@ -38,7 +39,7 @@ header,main {
 
 h1 {
   color: #007bff;
-  text-align: center;
+  
 }
 
 h2 {
