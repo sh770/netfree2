@@ -38,6 +38,7 @@ header,main {
 
 h1 {
   color: #007bff;
+  text-align: center;
 }
 
 h2 {
@@ -76,3 +77,29 @@ p {
   padding: 5px;
   text-align: center;
 }
+
+#downloadBtn {
+  display: none;     /*  נסתר כברירת מחדל */
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  /* display: block; הצג את הכפתור בשורה נפרדת */
+  margin: 0 auto; /* מרכוז את הכפתור במרכז השורה */
+}
+
+#downloadBtn:hover {
+  background-color: #bc2b78;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* מציב את האלמנטים בעמודה אחת */
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
