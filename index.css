@@ -35,6 +35,9 @@ header,main {
   margin-bottom: 5px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
@@ -53,6 +56,9 @@ p {
 .btn-container {
   display: flex;
   justify-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin-bottom: 40px;
   /* מרווח בתחתית הכפתורים */
 }
@@ -62,6 +68,9 @@ p {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   /* justify-content: space-between; */
   /* justify-content: space-evenly; */
   /* שורות ממוזערות בין התכנים */
@@ -76,6 +85,8 @@ p {
   right: 0;
   background-color: #f0f0f0;
   padding: 5px;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -90,6 +101,9 @@ p {
   cursor: pointer;
   /* display: block; הצג את הכפתור בשורה נפרדת */
   margin: 0 auto; /* מרכוז את הכפתור במרכז השורה */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #downloadBtn:hover {
